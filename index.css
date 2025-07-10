@@ -17,22 +17,26 @@
    }
    .cont4-h1{
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: poppins;
     font-size: 30px;
     line-height: 38px;
    }
    .cont4-h12{
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: poppins,sans-serif;
     font-size: 56px;
     line-height: 70px;
     color: rgb(0, 174, 255);
    }
+   .cont4-para{
+    height: 100px;
+   }
+
    .cont4-p{
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: poppins;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 26px;
    }
 .footer h3{
     font-size: 30px;
