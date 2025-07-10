@@ -9,6 +9,31 @@
     margin: 0 10px;
     fill: white;
 }
+
+/* cont4----------------------------- */
+.cont4{
+    margin-top: 120px;
+    margin-bottom: 120px;
+   }
+   .cont4-h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+   }
+   .cont4-h12{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 56px;
+    line-height: 70px;
+    color: rgb(0, 174, 255);
+   }
+   .cont4-p{
+    font-weight: 400;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+   }
 .footer h3{
     font-size: 30px;
 }
