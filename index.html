@@ -174,33 +174,52 @@
 
 
     <!-- cont3----------------------------------------------------------- -->
-    <section class="container-fluid px-0 ">
-        <div class="cont3 container-fluid px-0">
-            <img src="./image/homebanner.webp" alt="homebanner" class="w-100 "
-                style="height: 570px; object-fit: cover;">
-            <div class="cont3-head position-absolute w-50" style="top: 350px; margin-left: 170px; height: 100px;">
-                <h1 class="" style="font-size: 60px; font-weight: bolder;">From Start to Finish</h1>
-                <h2 style="font-weight: bold;">We’ll Take Care of It All</h2>
-                <button type="button" class="btn btn-dark rounded-pill w-25 mt-3">Sign In</button>
-            </div>
+    <section class="section-cont3 container-fluid px-0">
+    <div class="cont3 container-fluid px-0 position-relative">
+        <img src="./image/homebanner.webp" alt="homebanner" class="cont3-banner w-100" style="height: 570px; object-fit: cover;">
+        <div class="cont3-head position-absolute top-0 start-0 w-50 mt-5 mt-sm-3 ms-sm-5 text-sm-start px-3 px-sm-0">
+            <h1 class="cont3-h1 display-3 fw-bolder">From Start to Finish</h1>
+            <h2 class="cont3-h2 fw-bold">We'll Take Care of It All</h2>
+            <button type="button" class="btn btn-dark rounded-pill py-2 px-4 fs-5">Sign In</button>
         </div>
+    </div>
     </section>
     <!-- cont4---------------------------------------------------------------- -->
-   <section class="cont4 container-fluid">
-    <div class=" cont4-row row justify-content-center"
-       >
-        <div class="cont4-head col-md-3 ">
+<section class="cont4 container-fluid px-0">
+    <div class="cont4-row row justify-content-center mx-0">
+        <div class="cont4-head col-12 col-md-3 text-start ps-3 ps-md-0">
             <h1 class="cont4-h1 d-md-block d-inline">Welcome to</h1>
-            <h1 class="cont4-h12 d-md-block " > CALL <br class="d-none d-md-block"> GENIE!</h1>
+            <h1 class="cont4-h12 d-block fw-normal">CALL <br class="d-none d-md-block"> GENIE!</h1>
         </div>
-        <div class="cont4-para col-md-6 ">
-            <p class="cont4-p fs-5 pt-3">We're here to simplify your life with reliable home services you can trust. Coming home to a refreshed,
+        <div class="cont4-para col-12 col-md-6 text-start ps-3 pe-3 ps-md-0 pe-md-0">
+            <p class="cont4-p fw-normal mt-3 mt-md-0 mb-0">We're here to simplify your life with reliable home services you can trust. Coming home to a refreshed,
                 organized space allows you to focus on what truly matters—your family and passions. Whether you need
                 everyday help or specialized assistance, our caring professionals are just a click away. Explore our
                 services and let us handle the rest, so you can relax and enjoy life's special moments.</p>
         </div>
     </div>
 </section>
+
+<style>
+    /* Only for ≤576px */
+    @media (max-width: 576px) {
+        .cont4-head, .cont4-para {
+            width: 100%;
+        }
+        .cont4-h12 {
+            font-size: 48px;
+            line-height: 60px;
+            font-weight: 400;
+            padding-right: 12px;
+        }
+        .cont4-p {
+            font-size: 15px;
+            line-height: 23px;
+            font-weight: 400;
+            /* Exact same text content - not modified */
+        }
+    }
+</style>
     <!-- <section class="container-fluid">
     <div class="row justify-content-center"
        >

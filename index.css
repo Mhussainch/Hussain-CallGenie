@@ -115,6 +115,18 @@
 }
 
 
-@media screen and (min-width:786px) {
-    
-}
+   @media (max-width: 576px) {
+        .section-cont3{
+            height: 400px;
+            width: 100% !important;
+        }
+        .cont3-head {
+            width: 100% !important;
+            margin-left: 0 !important;
+            text-align: center !important;
+            padding: 0 1rem;
+        }
+        .cont3-banner {
+            height: 400px !important;
+        }
+    }
