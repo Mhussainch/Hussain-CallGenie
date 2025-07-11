@@ -164,6 +164,7 @@
         }
         .cont3-banner {
             height: 400px !important;
+            object-fit: cover;
         }
 
         /* cont4------------------------------ */
