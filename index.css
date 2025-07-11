@@ -58,6 +58,14 @@
     font-family: sans-serif;
     color: black;
 }
+.cont5{
+    margin-top: 150px; 
+    margin-bottom: 70px;
+    font-family: sans-serif;
+}
+.cont5-h1{
+    color: #00aeff;
+}
 .cont6 .card-text:hover{
     color: rgb(50, 136, 255);
 }
@@ -203,7 +211,16 @@
             font-size: 15px;
             line-height: 23px;
             font-weight: 400;
-           
+        }
+           /* cont5------------------------------------------------------------- */
+           .cont
+        .cont5-h1{
+            font-size: 30px ;
+            font-weight: 600;
+            color: black;
+        }
+        .cont5-h2{
+            display: none;
         }
 
         /* cont11------------------------------------------------/ */
