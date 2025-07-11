@@ -132,6 +132,9 @@
             width: 150px;
           
         }
+        .navbar-toggler {
+           border: none;
+        }
         .nav1-collapse {
             padding: 0 16px 16px;
         }
@@ -189,5 +192,10 @@
             line-height: 23px;
             font-weight: 400;
            
+        }
+
+        /* cont11------------------------------------------------/ */
+        .section-cont12{
+            display: none;
         }
     }
