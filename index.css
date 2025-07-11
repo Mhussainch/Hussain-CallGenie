@@ -70,6 +70,18 @@
     font-family: sans-serif;
     color: black;
 }
+.cont11{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#cont11-h11{
+    margin-left: 40px;
+    font-weight: bolder;
+}
+#cont11-h1{
+    color: rgb(0,174,255);
+    font-weight: bolder;
+}
 
     .card:hover .card-text {
         color: #00aeff !important;
