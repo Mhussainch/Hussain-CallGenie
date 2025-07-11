@@ -20,9 +20,9 @@
           
             <img src="./image/headerlogo.webp" alt="Call Genie Logo" 
                  class="nav1-img img-fluid ms-3 ms-md-5" 
-                 style="width: 220px;">
+                >
 
-            <!-- Mobile toggle button -->
+            <!-- toggle button -->
             <button class="navbar-toggler me-3" type="button" 
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" 
@@ -40,13 +40,13 @@
            
             <div class="nav1-collapse collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav w-100 w-lg-auto mb-3 mb-lg-0 text-center  justify-content-end">
-                    <li class="nav-item py-2 py-lg-0 px-0 px-lg-5 border-bottom border-lg-0">
+                    <li class="nav-item py-2 py-lg-0 px-0 px-lg-5  border-lg-0">
                         <a class="nav-link active fw-medium" href="#">Home</a>
                     </li>
-                    <li class="nav-item py-2 py-lg-0 px-0 px-lg-5 border-bottom border-lg-0">
+                    <li class="nav-item py-2 py-lg-0 px-0 px-lg-5 m border-lg-0">
                         <a class="nav-link active fw-medium" href="#">About Us</a>
                     </li>
-                    <li class="nav-item py-2 py-lg-0 ps-0 pe-0 pe-lg-5 border-bottom border-lg-0">
+                    <li class="nav-item py-2 py-lg-0 ps-0 pe-0 pe-lg-5  border-lg-0">
                         <a class="nav-link active fw-medium" href="#">Contact Us</a>
                     </li>
                 </ul>
@@ -1173,9 +1173,9 @@
     </section>
 
     <!-- cont15------------------------------------------------------------ -->
-    <section class="container-fluid px-0">
+    <section class="section-cont15 container-fluid px-0">
         <div class="cont15 container-fluid px-0 position-relative">
-            <img src="./image/secondlast banner.webp" alt="Services Banner" class="w-100"
+            <img src="./image/secondlast banner.webp" alt="Services Banner" class="cont15-img w-100"
                 style="height: 450px; object-fit: cover;">
 
             <div class="container position-absolute top-0 start-0 end-0 h-100">
@@ -1215,14 +1215,25 @@
         </div>
     </section>
 
+    <style>
+        @media (max-width:576px){
+            .section-cont15{
+                width: 850px;
+                height: 800px;
+            }
+            .cont15-img{
+                height: 800px;
+            }
+        }
+    </style>
+
     <!-- footer=============================================================== -->
     <section class="container-fluid px-0">
         <div class="footer container-fluid px-0 position-relative">
-            <!-- Background Image -->
+        
             <img src="./image/footer.webp" alt="Footer Background" class="w-100 position-absolute top-0 start-0"
                 style="height: 100%; object-fit: cover; z-index: -1;">
 
-            <!-- Content Overlay -->
             <div class="container position-relative text-white py-5" style="z-index: 1;">
                 <div class="row gx-5">
                     <div class="col-md-3 mb-4 mb-md-0">
