@@ -121,6 +121,9 @@
      #nav1{
             width: 850px;
         }
+        .nav1-img{
+            margin-bottom: 15px;
+        }
         .nav1-collapse {
             background-color: white;
             padding: 0 16px 16px;
