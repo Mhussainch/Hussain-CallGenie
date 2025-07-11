@@ -7,7 +7,7 @@
     width: 60px;
     height: 30px;
     margin: 0 10px;
-    fill: white;
+    /* fill: white; */
 }
 .cont3-head h1{
     margin-top: 150px;
@@ -125,7 +125,7 @@
 
     /* nav1------------------------------------------- */
      #nav1{
-            width: 850px;
+            width: 100% !important;
         }
         .nav1-img{
             margin-bottom: 15px;
@@ -151,7 +151,7 @@
         /* cont3----------------------------------------------- */
         .section-cont3{
             height: 400px;
-            width: 850px;
+            width: 100% !important;
         }
         .cont3-head {
             width: 100% !important;
@@ -171,10 +171,10 @@
             padding-left: 50px;
             margin-top: 50px;
             margin-bottom: 70px;
-            width: 850px;
+            width: 100% !important;
         }
         .cont4-head, .cont4-para {
-            width: 100%;
+            width: 100% !important;
         }
         .cont4-h12 {
             font-size: 48px;
