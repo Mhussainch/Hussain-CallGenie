@@ -138,6 +138,9 @@
      color: rgb(0, 174, 255);
      font-weight: bolder;
  }
+ .cont13{
+    font-family: poppins;
+ }
 
  .card:hover .card-text {
      color: #00aeff !important;
@@ -334,6 +337,11 @@
      }
 
      /* cont11------------------------------------------------/ */
+
+     .section-cont11{
+        height: 800px;
+        width: 100% !important;
+     }
      .section-cont12 {
          display: none;
      }
