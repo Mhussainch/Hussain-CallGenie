@@ -187,6 +187,10 @@
     width: 180px;
      height: 60px;
  }
+ .cont15-img{
+    height: 650px;
+     object-fit: cover;
+ }
 
 
  @media (max-width: 768px) {
@@ -367,5 +371,23 @@
      }
      .app{
         width: 100% !important;
+        margin-left: 0px;
+     }
+     .app-img {
+         height: 300px;
+         width: 300px;
+         margin-left: 10px;
+     }
+     .app-head {
+         margin-top: 40px;
+         margin-left: 10px;
+         text-align: center;
+     }
+     .app-store{
+        width: 100px;
+        justify-content: space-between;
+         height: 35px;
+         margin-bottom: 40px;
+         margin-top: 20px;
      }
  }
