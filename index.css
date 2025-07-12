@@ -188,7 +188,7 @@
      height: 60px;
  }
  .cont15-img{
-    height: 650px;
+    height: 450px;
      object-fit: cover;
  }
 
@@ -389,5 +389,25 @@
          height: 35px;
          margin-bottom: 40px;
          margin-top: 20px;
+     }
+
+     /* cont15---------------------------------------------------- */
+     .cont15-img{
+        height: 1200px;
+     }
+
+     .footer-col{
+        margin-left: 20px;
+        width: 100%;
+        /* justify-content: center; */
+     }
+     .footer-img{
+        justify-content: center;
+     }
+     .footer-h3{
+        text-align: center;
+     }
+     .footer-icon{
+        justify-content: center;
      }
  }
