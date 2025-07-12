@@ -141,6 +141,9 @@
  .cont13{
     font-family: poppins;
  }
+ .secondLast-img {
+    width: 100px;
+ }
 
  .card:hover .card-text {
      color: #00aeff !important;
@@ -166,6 +169,23 @@
 
  .card-text, .card-title, h3, h5, .btn {
      transition: all 0.3s ease;
+ }
+ .app{
+    margin-top: 70px; 
+    margin-left: 240px;
+    margin-right: 240px;
+    background-color: #e4f0f8;
+ }
+ .app-img{
+    height: 450px;
+     width: 400px;
+ }
+ .app-head{
+    margin-top: 100px; margin-left: 6%;
+ }
+ .app-store{
+    width: 180px;
+     height: 60px;
  }
 
 
@@ -344,5 +364,8 @@
      }
      .section-cont12 {
          display: none;
+     }
+     .app{
+        width: 100% !important;
      }
  }
