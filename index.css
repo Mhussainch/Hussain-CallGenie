@@ -58,13 +58,16 @@
     font-family: sans-serif;
     color: black;
 }
-.cont5{
+.section-cont5{
     margin-top: 150px; 
     margin-bottom: 70px;
     font-family: sans-serif;
 }
 .cont5-h1{
     color: #00aeff;
+}
+.cont6-h1{
+    margin-left: 40px;
 }
 .cont6 .card-text:hover{
     color: rgb(50, 136, 255);
@@ -77,6 +80,12 @@
     font-weight: bold;
     font-family: sans-serif;
     color: black;
+}
+.section-cont9{
+    margin-top: 100px;
+}
+.cont9-h1{
+    margin-left: 40px;
 }
 .cont11{
     margin-top: 100px;
@@ -222,7 +231,10 @@
         .cont5-h2{
             display: none;
         }
-
+/* cont6--------------------------------------------------------- */
+.cont6-h1{
+    margin-left: 10px;
+}
         /* cont11------------------------------------------------/ */
         .section-cont12{
             display: none;
