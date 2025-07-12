@@ -1,3 +1,8 @@
+ .crousel1-card{
+    width: 18rem;
+     height: 24rem;
+ }
+ 
  .cont2 .nav-link {
      color: white;
      font-size: larger;
@@ -412,7 +417,7 @@
      }
 
      .crousel1-card {
-         height: 18rem;
+         height: 12rem;
      }
      .col12-head h5{
         font-weight: lighter;
@@ -428,4 +433,28 @@
         position: relative;
        
      }
+
+
+
+
+         .crousel1 {
+                padding-left: 0;
+                padding: 0;
+                width: 100% !important;
+                height: 600px;
+                padding-top: 200px;
+            }
+
+            .crousel1-card {
+                width: 100%;
+                height: 12rem;
+            }
+            .crousel1-card img{
+                height: auto;
+            }
+            .crousel1-card a{
+                padding: 50px;
+            }
+           
+        
  }
