@@ -393,7 +393,7 @@
 
      /* cont15---------------------------------------------------- */
      .cont15-img{
-        height: 1200px;
+        height: 1000px;
      }
 
      .footer-col{
@@ -413,5 +413,19 @@
 
      .crousel1-card {
          height: 18rem;
+     }
+     .col12-head h5{
+        font-weight: lighter;
+     }
+     .col-12 h5{
+        font-weight: lighter;
+     }
+     .col-12{
+        position: relative;
+        bottom: 0px;
+     }
+     .col-22{
+        position: relative;
+       
      }
  }
