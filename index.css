@@ -453,7 +453,8 @@
                 height: auto;
             }
             .crousel1-card a{
-                padding: 50px;
+        align-items: center;
+        padding: 70px;
             }
            
         
